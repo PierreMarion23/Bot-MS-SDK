@@ -39,7 +39,6 @@ var bot = new builder.UniversalBot(connector, [
         session.send(WELCOME_MESSAGE);
         session.conversationData.prompts = [];
         session.conversationData.history_states_of_request = [[{}, false]];
-        // session.conversationData.requestIsReady = false;
         session.beginDialog('main');
     }
 ]);
