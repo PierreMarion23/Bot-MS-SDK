@@ -1,5 +1,5 @@
 {
-  "name": "demo-msexp2017",
+  "name": "bot-db-request-for-humans",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,12 +10,10 @@
   "dependencies": {
     "axios": "^0.17.0",
     "botbuilder": "^3.10.2",
-    "botfuel-nlp-sdk": "^1.1.1",
-    "botfuel-qna-sdk": "^1.1.0",
     "restify": "^4.3.0"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Pierre Marion",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1"
