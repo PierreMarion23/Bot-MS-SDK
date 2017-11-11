@@ -1,0 +1,23 @@
+{
+  "name": "demo-msexp2017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel client_js/src -d client_js/dist"
+  },
+  "dependencies": {
+    "axios": "^0.17.0",
+    "botbuilder": "^3.10.2",
+    "botfuel-nlp-sdk": "^1.1.1",
+    "botfuel-qna-sdk": "^1.1.0",
+    "restify": "^4.3.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
